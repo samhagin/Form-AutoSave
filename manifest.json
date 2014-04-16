@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "formautosave.png",
+      "default_title": "Form Autosave"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.min.js", "init.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "AutoSaves Form input as you type so they can be retrieved even after a browser crash, network timeout or accidental page reload",
+   "homepage_url": "http://www.webwiki.co",
+   "icons": {
+      "128": "formautosave-128.png",
+      "48": "formautosave-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNhzlHOew3drEdJs4ptcrUW7Ng6d5YTI73lPVDbXnCi3q/+HtvSmkiVW2HEyys0BrgzZP+VCq/b+m0Ny5AU2ljjoPz2mAmiIcBI4OgubEoY58j2Y+8Iaq8DgWFJMscReUPMiEAiGYTHMWek22ak9dPmgjHdlXPU1+4re5vbZkvBQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "6",
+   "name": "Form AutoSave",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

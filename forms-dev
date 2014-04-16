@@ -1,0 +1,226 @@
+4/15/2014 RabbitMQ Management
+http://dev.forms.ge.com:15672/#/queues 1/6
+Virtual host: All
+Overview Connections Channels Exchanges Queues Visualiser
+User: developer
+RabbitMQ 3.0.1, Erlang R14B04 Log out
+Queues
+All queues
+Overview Messages
+Virtual
+host
+Name Exclusive Parameters Policy Status Ready Unacked
+formsdev
+bulkuserimport D Args Idle 0
+formsdev
+caseexport D Args Idle 0
+formsdev
+create_record_action D Args Active 1617
+formsdev
+custom_action D Args Active 1
+formsdev
+customaction D Args Idle 0
+formsdev
+dataformcustomaction D Idle 0
+formsdev
+deletelsf D Args Idle 0
+formsdev
+dev_libraries_notifications D Idle 0
+formsdev
+dfsendmail D Args Idle 1
+formsdev
+export D Args Idle 1
+formsdev
+exportdt D Idle 0
+formsdev
+exportscls D Args Idle 0
+formsdev
+extsurveyscls D Args Idle 0
+formsdev
+formsexport D Args Idle 0
+forms- formsimport D Args Idle 0
+4/15/2014 RabbitMQ Management
+http://dev.forms.ge.com:15672/#/queues 2/6
+dev
+formsdev
+import D Args Idle 0
+formsdev
+importdt D Idle 0
+formsdev
+quizexport D Args Idle 0
+formsdev
+reportsdbtodf D Args Idle 0
+formsdev
+send_email_action D Args Idle 0
+formsdev
+sendmail D Args Active 0
+formsdev
+surveyexport D Args Idle 0
+formssandbox
+ExtSurveyPOC D Idle 0
+formssandbox
+bulkuserimport D Args Idle 0
+formssandbox
+caseexport D Args Idle 0
+formssandbox
+casereport D Args Idle 0
+formssandbox
+create_record_action D Args Idle 0
+formssandbox
+custom_action D Args Active 0
+formssandbox
+dataformcustomaction D Args Idle 0
+formssandbox
+dbtocsv D Idle 0
+formssandbox
+dbtoexcel D Idle 0
+formssandbox
+dbtoxml D Idle 0
+formssandbox
+deletelsf D Args Active 0
+formssandbox
+dfsendmail D Args Idle 0
+formssandbox
+export D Args Idle 0
+formssandbox
+exportscls D Args Idle 0
+4/15/2014 RabbitMQ Management
+http://dev.forms.ge.com:15672/#/queues 3/6
+formssandbox
+extsurveyscls D Args Idle 0
+formssandbox
+formsexport D Args Idle 0
+formssandbox
+formsimport D Args Idle 0
+formssandbox
+import D Args Idle 0
+formssandbox
+projectalert D Args Idle 0
+formssandbox
+projectreminder D Args Idle 0
+formssandbox
+projecttoexcel D Args Idle 0
+formssandbox
+quizexport D Args Idle 0
+formssandbox
+reportsdbtodf D Args Idle 0
+formssandbox
+send_email_action D Args Idle 0
+formssandbox
+sendmail D Args Active 2
+formssandbox
+surveyexport D Args Idle 0
+reportsdev
+bulkuserimport D Idle 0
+reportsdev
+caseexport D Idle 0
+reportsdev
+debugqueue D Idle 0
+reportsdev
+dfsendmail D Idle 0
+reportsdev
+dftoexcel D Idle 0
+reportsdev
+exportscls D Idle 0
+reportsdev
+extsurvey D Idle 0
+reportsdev
+localtest D Idle 0
+reportsdev
+projecttoexcel D Idle 0
+reports- quizexport D Idle 0
+4/15/2014 RabbitMQ Management
+http://dev.forms.ge.com:15672/#/queues 4/6
+dev
+reportsdev
+realtimecsv D Args Idle 0
+reportsdev
+realtimedbtodf D Args Idle 0
+reportsdev
+realtimedftodb D Args Idle 1
+reportsdev
+realtimeexcel D Args Idle 0
+reportsdev
+realtimehtml D Args Idle 1
+reportsdev
+realtimexml D Args Idle 0
+reportsdev
+reportsdbtocsv D Idle 0
+reportsdev
+reportsdbtodataforms D Idle 0
+reportsdev
+reportsdbtodf D Args Idle 0
+reportsdev
+reportsdbtoexcel D Idle 0
+reportsdev
+reportsdbtoweb D Idle 1
+reportsdev
+reportsdftodb D Args Idle 0
+reportsdev
+reportssendmail D Args Idle 0
+reportsdev
+reportvalidator D Args Active 49
+reportsdev
+surveyexport D Idle 0
+sc-dev bulkuserimport D Args Idle 0
+sc-dev caseexport D Args Idle 0
+sc-dev casereport D Args Idle 0
+sc-dev dataformcustomaction D Idle 0
+sc-dev dfsendmail D Args Idle 0
+sc-dev exportscls D Active 0
+sc-dev extsurveyscls D Args Idle 0
+sc-dev projectalert D Args Idle 0
+sc-dev projectreminder D Args Idle 0
+sc-dev projecttoexcel D Args Idle 0
+4/15/2014 RabbitMQ Management
+http://dev.forms.ge.com:15672/#/queues 5/6
+sc-dev quizexport D Args Idle 0
+sc-dev reportsdbtodf D Args Idle 0
+sc-dev surveyexport D Args Idle 0
+sc-dev workflow-action D Args Idle 0
+sc-dev workflow-colabnotification
+D Args Idle 0
+sc-dev workflow-notification D Args Idle 0
+sc-dev workflow-report D Idle 0
+scsandbox
+bulkuserimport D Args Idle 0
+scsandbox
+caseexport D Args Idle 0
+scsandbox
+casereport D Args Idle 0
+scsandbox
+dataformcustomaction D Args Idle 0
+scsandbox
+dfsendmail D Args Active 0
+scsandbox
+exportscls D Args Idle 0
+scsandbox
+extsurveyscls D Args Idle 0
+scsandbox
+projectalert D Args Idle 0
+scsandbox
+projectreminder D Args Idle 0
+scsandbox
+projecttoexcel D Args Idle 0
+scsandbox
+quizexport D Args Idle 0
+scsandbox
+reportvalidator D Args Idle 0
+scsandbox
+surveyexport D Args Idle 0
+scsandbox
+workflow-action D Args Idle 0
+scsandbox
+workflow-colabnotification
+D Args Idle 0
+scsandbox
+workflow-notification D Args Idle 0
+scsandbox
+workflow-report D Idle 0
+4/15/2014 RabbitMQ Management
+http://dev.forms.ge.com:15672/#/queues 6/6
+HTTP API Command Line Update every 5 seconds
+scsandbox
+workflow-test D Args Idle 0
+Add a new queue
+Last update: 2014-04-15 10:43:40
